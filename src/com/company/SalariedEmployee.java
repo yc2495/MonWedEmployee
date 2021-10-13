@@ -8,6 +8,8 @@ public class SalariedEmployee extends Employee {
         yearlySalary = salary;
     }
 
+
+
     @Override
     public double calculateBiWeeklyPay() {
         return yearlySalary/26;
